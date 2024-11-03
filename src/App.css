@@ -33,7 +33,13 @@
   }
 }
 
+.Form-input {
+  border-radius: 8px;
+}
+
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 2em;
 }
 

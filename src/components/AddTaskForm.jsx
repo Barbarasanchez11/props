@@ -12,7 +12,7 @@ function AddTaskForm({ addTask }) {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input 
+            <input className="Form-input"
                 placeholder="Añade una tarea" 
                 value={newTask}
                 onChange={(e) => setNewTask(e.target.value)} 

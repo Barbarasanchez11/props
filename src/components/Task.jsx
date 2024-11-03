@@ -3,7 +3,7 @@ import React from 'react';
 function Task({ task, removeTask, doneTask }) {
   return (
 
-    <li>
+    <li className='card'>
       <p
         style={{ textDecoration: task.completed ? 'line-through' : 'none' }}
         onClick={() => doneTask(task.id)}>
